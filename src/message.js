@@ -13,15 +13,6 @@ module.exports = function(config, message, edited, deleted)
    const bot = client.user;
 
    //
-   // Ignore messages by bots
-   //
-
-   if (message.author.bot)
-   {
-      return;
-   }
-
-   //
    // Embed member permissions in message data
    //
 
